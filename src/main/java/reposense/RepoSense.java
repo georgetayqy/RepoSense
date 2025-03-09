@@ -2,6 +2,7 @@ package reposense;
 
 import java.io.IOException;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -43,6 +44,8 @@ public class RepoSense {
         try {
             TimeUtil.startTimer();
             CliArguments cliArguments = ArgsParser.parse(args);
+            // set log folder location to /tmp to prevent logs from being written to the working directory
+            LogsManager.setLogFolderLocation(Paths.get("/tmp"));
             List<RepoConfiguration> configs = null;
             ReportConfiguration reportConfig = new ReportConfiguration();
             BlurbMap blurbMap = new BlurbMap();
