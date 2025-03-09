@@ -254,6 +254,7 @@
         "originality-threshold-ot": "--originality-threshold, -ot",
         "output-o": "--output, -o",
         "period-p": "--period, -p",
+        "portfolio-p": "--portfolio, -P",
         "repo-repos-r": "--repo, --repos, -r",
         "shallow-cloning-s": "--shallow-cloning, -S",
         "since-s": "--since, -s",
@@ -412,16 +413,6 @@
         "appendix-reposense-with-netlify": "Appendix: RepoSense with Netlify",
         "setting-up": "Setting up",
         "pr-previews": "PR previews",
-        "updating-the-report": "Updating the report"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "ug/withTravis.md",
-      "title": "Appendix: RepoSense with Travis",
-      "headings": {
-        "appendix-reposense-with-travis": "Appendix: RepoSense with Travis",
-        "setting-up": "Setting up",
         "updating-the-report": "Updating the report"
       },
       "headingKeywords": {}
